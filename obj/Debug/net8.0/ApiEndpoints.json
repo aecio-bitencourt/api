@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "API.Controllers.NotasController",
+    "Method": "spGetNotas",
+    "RelativePath": "api/notas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
