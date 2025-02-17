@@ -12,5 +12,14 @@ namespace API.Dtos.Notas
         public string? Almoxarifado { get; set; }
         public string? Serie { get; set; }
 
+        public string? Codigo_Movimentacao { get; set; }
+
+        public string? Cliente_Fornecedor { get; set; }
+
+        public DateTime Contabilizacao { get; set; }
+
+        public DateTime Emissao { get; set; }
+
+
     }
 }

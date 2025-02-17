@@ -18,5 +18,19 @@ namespace API.Models
 
         [Column(TypeName = "string(3)")]
         public string? Serie { get; set; }
+        
+        [Column(TypeName = "string(3)")]
+        public string? Codigo_Movimentacao { get; set; }
+
+        [Column(TypeName = "string(5)")]
+        public string? Cliente_Fornecedor  { get; set; }
+
+        public DateTime Contabilizacao { get; set; }
+
+        public DateTime Emissao { get; set; }
+
+        [Column(TypeName = "decimal")]
+        public decimal Total_Nota { get; set; }
+
     }
 }

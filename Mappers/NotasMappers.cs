@@ -12,7 +12,10 @@ namespace API.Mappers
                 Nota = notasModel.Nota,
                 Filial = notasModel.Filial,
                 Almoxarifado = notasModel.Almoxarifado,
-                Serie = notasModel.Serie
+                Serie = notasModel.Serie,
+                Codigo_Movimentacao = notasModel.Codigo_Movimentacao,
+                Cliente_Fornecedor = notasModel.Cliente_Fornecedor,
+                Contabilizacao = notasModel.Contabilizacao
             };
         }
     }
