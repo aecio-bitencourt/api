@@ -19,7 +19,6 @@ namespace API.Dtos.Notas
         public DateTime Contabilizacao { get; set; }
 
         public DateTime Emissao { get; set; }
-
-
+        public decimal Total_Nota { get; set; }
     }
 }

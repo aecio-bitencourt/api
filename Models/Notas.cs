@@ -29,7 +29,7 @@ namespace API.Models
 
         public DateTime Emissao { get; set; }
 
-        [Column(TypeName = "decimal")]
+        [Column(TypeName = "decimal(9,2)")]
         public decimal Total_Nota { get; set; }
 
     }
