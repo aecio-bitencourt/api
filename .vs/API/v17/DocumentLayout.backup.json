@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\dtos\\notas\\notasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:dtos\\notas\\notasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\models\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:models\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\interfaces\\inotasrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:interfaces\\inotasrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\repository\\notasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:repository\\notasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\mappers\\notasmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:mappers\\notasmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\dtos\\notas\\notasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:dtos\\notas\\notasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,86 +26,39 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotasController.cs",
-              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Controllers\\NotasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NotasController.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Controllers\\NotasController.cs",
-              "RelativeToolTip": "Controllers\\NotasController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:22:04.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:21:56.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NotasDto.cs",
               "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Dtos\\Notas\\NotasDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Notas\\NotasDto.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Dtos\\Notas\\NotasDto.cs",
-              "RelativeToolTip": "Dtos\\Notas\\NotasDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAD4vxYAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Dtos\\Notas\\NotasDto.cs*",
+              "RelativeToolTip": "Dtos\\Notas\\NotasDto.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T19:19:20.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "INotasRepo.cs",
-              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Interfaces\\INotasRepo.cs",
-              "RelativeDocumentMoniker": "Interfaces\\INotasRepo.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Interfaces\\INotasRepo.cs",
-              "RelativeToolTip": "Interfaces\\INotasRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:19:13.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "NotasMappers.cs",
               "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Mappers\\NotasMappers.cs",
               "RelativeDocumentMoniker": "Mappers\\NotasMappers.cs",
               "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Mappers\\NotasMappers.cs",
               "RelativeToolTip": "Mappers\\NotasMappers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:19:08.219Z"
+              "WhenOpened": "2025-02-17T19:19:08.219Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NotasRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\NotasRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\NotasRepository.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\NotasRepository.cs",
-              "RelativeToolTip": "Repository\\NotasRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:18:57.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Notas.cs",
               "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Models\\Notas.cs",
               "RelativeDocumentMoniker": "Models\\Notas.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Models\\Notas.cs",
-              "RelativeToolTip": "Models\\Notas.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Models\\Notas.cs*",
+              "RelativeToolTip": "Models\\Notas.cs*",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAYwIoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T23:03:32.557Z",
               "EditorCaption": ""
