@@ -13,14 +13,12 @@ namespace API.Controllers
     {
         private readonly ApplicationDBContext _context;
 
-        private readonly INotasRepo _notasRepo;
+        private readonly IOperacoesRepo _operacoesRepo;
 
-        private readonly IAlmoxarifadosRepo _almoxarifadosRepo;
-        public NotasController(ApplicationDBContext context, INotasRepo notasRepo, IAlmoxarifadosRepo almoxarifadosRepo)
+        public NotasController(ApplicationDBContext context, IOperacoesRepo operacoesRepo)
         {
-            _notasRepo = notasRepo;
+            _operacoesRepo = operacoesRepo;
             _context = context;
-            _almoxarifadosRepo = almoxarifadosRepo;
         }
 
         [HttpGet("{rota}")]
@@ -30,24 +28,11 @@ namespace API.Controllers
             if (rota.ToLower() != "notas" && rota.ToLower() != "almoxarifados")
                 return BadRequest();
 
-            /*
             var notas = await _notasRepo.GetAllAsync();
             
             var notasDto = notas.Select(s => s.ToNotasDto());
 
             return Ok(notas);
-            */
-        }
-        /*
-        [HttpGet("almoxarifados")]
-        public async Task<IActionResult> spGetAlmoxarifados()
-        {
-            var almoxarifados = await _almoxarifadosRepo.GetAllAsync();
-
-            var almoxarifadosDto = almoxarifados.Select(s => s.ToAlmoxarifadosDto());
-
-            return Ok(almoxarifados);
-        */
         }
     }
 }

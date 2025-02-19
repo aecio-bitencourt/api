@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\repository\\notasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:repository\\notasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\repository\\almoxarifadosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:repository\\almoxarifadosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\repository\\operacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:repository\\operacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,39 +22,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "NotasController.cs",
               "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Controllers\\NotasController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotasController.cs",
               "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Controllers\\NotasController.cs",
               "RelativeToolTip": "Controllers\\NotasController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwBkAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T14:57:25.316Z",
+              "WhenOpened": "2025-02-19T19:59:54.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotasRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\NotasRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\NotasRepository.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\NotasRepository.cs",
-              "RelativeToolTip": "Repository\\NotasRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T19:27:53.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AlmoxarifadosRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\AlmoxarifadosRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\AlmoxarifadosRepository.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\AlmoxarifadosRepository.cs",
-              "RelativeToolTip": "Repository\\AlmoxarifadosRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "OperacoesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\OperacoesRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\OperacoesRepository.cs",
+              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\OperacoesRepository.cs",
+              "RelativeToolTip": "Repository\\OperacoesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T14:48:38.929Z",
               "EditorCaption": ""
