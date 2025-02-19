@@ -1,8 +1,18 @@
 [
   {
     "ContainingType": "API.Controllers.NotasController",
+    "Method": "spGetAlmoxarifados",
+    "RelativePath": "api/notas/almoxarifados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NotasController",
     "Method": "spGetNotas",
-    "RelativePath": "api/notas",
+    "RelativePath": "api/notas/notas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

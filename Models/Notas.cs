@@ -30,13 +30,13 @@ namespace API.Models
         public DateTime Emissao { get; set; }
 
         [Column(TypeName = "decimal(9,2)")]
-        public decimal Total_Nota { get; set; }
+        public decimal? Total_Nota { get; set; }
         
         [Column(TypeName = "decimal(9,2")]
-        public decimal Descontos { get; set; }
+        public decimal? Descontos { get; set; }
         
         [Column(TypeName = "decimal(9,2")]
-        public decimal Acrescimos { get; set; }
+        public decimal? Acrescimos { get; set; }
         
         [Column(TypeName = "string(3)")]
         public string? Vendedor { get; set; }

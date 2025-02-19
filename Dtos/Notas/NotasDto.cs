@@ -13,9 +13,9 @@ namespace API.Dtos.Notas
         public string? Cliente_Fornecedor { get; set; }
         public DateTime Contabilizacao { get; set; }
         public DateTime Emissao { get; set; }
-        public decimal Total_Nota { get; set; }
-        public decimal Descontos { get; set; }
-        public decimal Acrescimos { get; set; }
+        public decimal? Total_Nota { get; set; }
+        public decimal? Descontos { get; set; }
+        public decimal? Acrescimos { get; set; }
         public string? Vendedor { get; set; }
         public string? Pedido { get; set; }
         public string? Tipo { get; set; }

@@ -19,6 +19,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 });
 
 builder.Services.AddScoped<INotasRepo, NotasRepository>();
+builder.Services.AddScoped<IAlmoxarifadosRepo, AlmoxarifadosRepository>();
 
 var app = builder.Build();
 
