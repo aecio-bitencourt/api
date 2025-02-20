@@ -6,5 +6,6 @@ namespace API.Interfaces
     {
         Task<List<Almoxarifados>> GetAlmoxarifados();
         Task<List<Notas>> GetNotas();
+        Task<List<Centro_de_Custo>> GetCentro_de_Custo();
     }
 }

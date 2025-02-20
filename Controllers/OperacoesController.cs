@@ -22,7 +22,7 @@ namespace API.Controllers
         //Chamada utilizando Procedure
         public async Task<IActionResult> spGetAPIOperacoes(string rota)
         {
-            if (rota.ToLower() != "notas" && rota.ToLower() != "almoxarifados")
+            if (rota.ToLower() != "notas" && rota.ToLower() != "almoxarifados" && rota.ToLower() != "centro_de_custo")
                 return BadRequest();
 
             if (rota.ToLower() == "notas")
@@ -31,11 +31,17 @@ namespace API.Controllers
                 var notasDto = notas.Select(n => n.ToNotasDto());
                 return Ok(notasDto);
             }
-            else
+            else if (rota.ToLower() == "almoxarifados")
             {
                 var almoxarifados = await _operacoesRepo.GetAlmoxarifados();
                 var almoxarifadosDto = almoxarifados.Select(a => a.ToAlmoxarifadosDto());
                 return Ok(almoxarifadosDto);
+            }
+            else
+            {
+                var Centro_de_Custo = await _operacoesRepo.GetCentro_de_Custo();
+                var Centro_de_CustoDto = Centro_de_Custo.Select(c => c.ToCentro_de_CustoDto());
+                return Ok(Centro_de_CustoDto);
             }
         }
     }
