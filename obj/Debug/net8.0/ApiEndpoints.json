@@ -1,18 +1,12 @@
 [
   {
     "ContainingType": "API.Controllers.OperacoesController",
-    "Method": "spGetAPIOperacoes",
-    "RelativePath": "api/operacoes/{rota}",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/operacoes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "rota",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

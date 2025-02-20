@@ -12,17 +12,17 @@ namespace API.Repository
         {
             _context = context;
         }
-        public Task<List<Almoxarifados>> GetAlmoxarifados()
+        public async Task<(List<Notas>, List<Almoxarifados>)> GetTodas()
         {
-            return _context.Almoxarifados
-                .FromSqlInterpolated($"EXEC spGetAPIOperacoes @rota = {"almoxarifados"}")
+            var notas = await _context.Notas
+                .FromSqlRaw("EXEC spGetAPIOperacoes @rota = {0}", "notas")
                 .ToListAsync();
-        }
-        public Task<List<Notas>> GetNotas()
-        {
-            return _context.Notas
-                .FromSqlInterpolated($"EXEC spGetAPIOperacoes @rota = {"notas"}")
+
+            var almoxarifados = await _context.Almoxarifados
+                .FromSqlRaw("EXEC spGetAPIOperacoes @rota = {0}", "almoxarifados")
                 .ToListAsync();
+
+            return (notas, almoxarifados);
         }
     }
 }

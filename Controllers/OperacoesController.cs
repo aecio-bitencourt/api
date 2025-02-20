@@ -1,9 +1,6 @@
-﻿using API.Data;
-using API.Interfaces;
+﻿using API.Interfaces;
 using API.Mappers;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic;
 
 namespace API.Controllers
 {
@@ -18,25 +15,17 @@ namespace API.Controllers
             _operacoesRepo = operacoesRepo;
         }
 
-        [HttpGet("{rota}")]
-        //Chamada utilizando Procedure
-        public async Task<IActionResult> spGetAPIOperacoes(string rota)
+        [HttpGet]
+        public async Task<IActionResult> GetAllAsync()
         {
-            if (rota.ToLower() != "notas" && rota.ToLower() != "almoxarifados")
-                return BadRequest();
+            var (notas, almoxarifados) = await _operacoesRepo.GetTodas();
 
-            if (rota.ToLower() == "notas")
+            var valorRota = new
             {
-                var notas = await _operacoesRepo.GetNotas();
-                var notasDto = notas.Select(n => n.ToNotasDto());
-                return Ok(notasDto);
-            }
-            else
-            {
-                var almoxarifados = await _operacoesRepo.GetAlmoxarifados();
-                var almoxarifadosDto = almoxarifados.Select(a => a.ToAlmoxarifadosDto());
-                return Ok(almoxarifadosDto);
-            }
+                Notas = notas.Select(n => n.ToNotasDto()),
+                Almoxarifados = almoxarifados.Select(a => a.ToAlmoxarifadosDto())
+            };
+            return Ok(valorRota);
         }
     }
 }

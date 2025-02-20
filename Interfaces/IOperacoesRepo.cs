@@ -4,7 +4,6 @@ namespace API.Interfaces
 {
     public interface IOperacoesRepo
     {
-        Task<List<Almoxarifados>> GetAlmoxarifados();
-        Task<List<Notas>> GetNotas();
+        Task<(List<Notas>, List<Almoxarifados>)> GetTodas();
     }
 }

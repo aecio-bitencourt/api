@@ -5,20 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/operacoes/{rota}": {
+    "/api/operacoes": {
       "get": {
         "tags": [
           "Operacoes"
-        ],
-        "parameters": [
-          {
-            "name": "rota",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "responses": {
           "200": {

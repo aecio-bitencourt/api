@@ -1,88 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AECIO\\Documents\\api\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\aecio\\documents\\api\\models\\almoxarifados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:models\\almoxarifados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\aecio\\documents\\api\\dtos\\almoxarifados\\almoxarifadosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:dtos\\almoxarifados\\almoxarifadosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\aecio\\documents\\api\\mappers\\almoxarifadosmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:mappers\\almoxarifadosmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\aecio\\documents\\api\\repository\\operacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:repository\\operacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlmoxarifadosMappers.cs",
-              "DocumentMoniker": "C:\\Users\\AECIO\\Documents\\api\\Mappers\\AlmoxarifadosMappers.cs",
-              "RelativeDocumentMoniker": "Mappers\\AlmoxarifadosMappers.cs",
-              "ToolTip": "C:\\Users\\AECIO\\Documents\\api\\Mappers\\AlmoxarifadosMappers.cs",
-              "RelativeToolTip": "Mappers\\AlmoxarifadosMappers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T02:20:22.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AlmoxarifadosDto.cs",
-              "DocumentMoniker": "C:\\Users\\AECIO\\Documents\\api\\Dtos\\Almoxarifados\\AlmoxarifadosDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Almoxarifados\\AlmoxarifadosDto.cs",
-              "ToolTip": "C:\\Users\\AECIO\\Documents\\api\\Dtos\\Almoxarifados\\AlmoxarifadosDto.cs",
-              "RelativeToolTip": "Dtos\\Almoxarifados\\AlmoxarifadosDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T02:18:40.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Almoxarifados.cs",
-              "DocumentMoniker": "C:\\Users\\AECIO\\Documents\\api\\Models\\Almoxarifados.cs",
-              "RelativeDocumentMoniker": "Models\\Almoxarifados.cs",
-              "ToolTip": "C:\\Users\\AECIO\\Documents\\api\\Models\\Almoxarifados.cs",
-              "RelativeToolTip": "Models\\Almoxarifados.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T02:16:25.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OperacoesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\AECIO\\Documents\\api\\Repository\\OperacoesRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\OperacoesRepository.cs",
-              "ToolTip": "C:\\Users\\AECIO\\Documents\\api\\Repository\\OperacoesRepository.cs",
-              "RelativeToolTip": "Repository\\OperacoesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T02:14:11.58Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
