@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\",
+  "WorkspaceRootPath": "C:\\Users\\AECIO\\Documents\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\repository\\operacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:repository\\operacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\aecio\\documents\\api\\models\\almoxarifados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:models\\almoxarifados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\gomaq_ti\\desktop\\api\\controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:controllers\\notascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\aecio\\documents\\api\\dtos\\almoxarifados\\almoxarifadosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:dtos\\almoxarifados\\almoxarifadosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\aecio\\documents\\api\\mappers\\almoxarifadosmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:mappers\\almoxarifadosmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|c:\\users\\aecio\\documents\\api\\repository\\operacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4029B53-ECB8-4223-88E4-76B03CE310EE}|API.csproj|solutionrelative:repository\\operacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotasController.cs",
-              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Controllers\\NotasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\NotasController.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Controllers\\NotasController.cs",
-              "RelativeToolTip": "Controllers\\NotasController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCIAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AlmoxarifadosMappers.cs",
+              "DocumentMoniker": "C:\\Users\\AECIO\\Documents\\api\\Mappers\\AlmoxarifadosMappers.cs",
+              "RelativeDocumentMoniker": "Mappers\\AlmoxarifadosMappers.cs",
+              "ToolTip": "C:\\Users\\AECIO\\Documents\\api\\Mappers\\AlmoxarifadosMappers.cs",
+              "RelativeToolTip": "Mappers\\AlmoxarifadosMappers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T19:59:54.856Z",
+              "WhenOpened": "2025-02-20T02:20:22.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlmoxarifadosDto.cs",
+              "DocumentMoniker": "C:\\Users\\AECIO\\Documents\\api\\Dtos\\Almoxarifados\\AlmoxarifadosDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Almoxarifados\\AlmoxarifadosDto.cs",
+              "ToolTip": "C:\\Users\\AECIO\\Documents\\api\\Dtos\\Almoxarifados\\AlmoxarifadosDto.cs",
+              "RelativeToolTip": "Dtos\\Almoxarifados\\AlmoxarifadosDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:18:40.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OperacoesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\OperacoesRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\OperacoesRepository.cs",
-              "ToolTip": "C:\\Users\\GOMAQ_TI\\Desktop\\api\\Repository\\OperacoesRepository.cs",
-              "RelativeToolTip": "Repository\\OperacoesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Title": "Almoxarifados.cs",
+              "DocumentMoniker": "C:\\Users\\AECIO\\Documents\\api\\Models\\Almoxarifados.cs",
+              "RelativeDocumentMoniker": "Models\\Almoxarifados.cs",
+              "ToolTip": "C:\\Users\\AECIO\\Documents\\api\\Models\\Almoxarifados.cs",
+              "RelativeToolTip": "Models\\Almoxarifados.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T14:48:38.929Z",
+              "WhenOpened": "2025-02-20T02:16:25.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OperacoesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AECIO\\Documents\\api\\Repository\\OperacoesRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\OperacoesRepository.cs",
+              "ToolTip": "C:\\Users\\AECIO\\Documents\\api\\Repository\\OperacoesRepository.cs",
+              "RelativeToolTip": "Repository\\OperacoesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:14:11.58Z",
               "EditorCaption": ""
             }
           ]

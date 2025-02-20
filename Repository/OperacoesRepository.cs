@@ -15,13 +15,13 @@ namespace API.Repository
         public Task<List<Almoxarifados>> GetAlmoxarifados()
         {
             return _context.Almoxarifados
-                .FromSqlRaw("EXEC spGetDados @Tipo = {rota}")
+                .FromSqlInterpolated($"EXEC spGetAPIOperacoes @rota = {"almoxarifados"}")
                 .ToListAsync();
         }
         public Task<List<Notas>> GetNotas()
         {
             return _context.Notas
-                .FromSqlRaw("EXEC spGetDados @Tipo = {rota}")
+                .FromSqlInterpolated($"EXEC spGetAPIOperacoes @rota = {"notas"}")
                 .ToListAsync();
         }
     }

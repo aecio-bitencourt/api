@@ -18,8 +18,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddScoped<INotasRepo, NotasRepository>();
-builder.Services.AddScoped<IAlmoxarifadosRepo, AlmoxarifadosRepository>();
+builder.Services.AddScoped<IOperacoesRepo, OperacoesRepository>();
 
 var app = builder.Build();
 

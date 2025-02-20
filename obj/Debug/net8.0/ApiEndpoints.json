@@ -1,22 +1,18 @@
 [
   {
-    "ContainingType": "API.Controllers.NotasController",
-    "Method": "spGetAlmoxarifados",
-    "RelativePath": "api/notas/almoxarifados",
+    "ContainingType": "API.Controllers.OperacoesController",
+    "Method": "spGetAPIOperacoes",
+    "RelativePath": "api/operacoes/{rota}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.NotasController",
-    "Method": "spGetNotas",
-    "RelativePath": "api/notas/notas",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "rota",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

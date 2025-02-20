@@ -5,22 +5,20 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/notas/notas": {
+    "/api/operacoes/{rota}": {
       "get": {
         "tags": [
-          "Notas"
+          "Operacoes"
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
+        "parameters": [
+          {
+            "name": "rota",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
           }
-        }
-      }
-    },
-    "/api/notas/almoxarifados": {
-      "get": {
-        "tags": [
-          "Notas"
         ],
         "responses": {
           "200": {

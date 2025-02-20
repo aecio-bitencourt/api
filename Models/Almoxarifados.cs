@@ -16,11 +16,11 @@ namespace API.Models
         [Column(TypeName = "string(40)")]
         public string? Nome { get; set; }
 
-        [Column(TypeName = "float(1)")]
-        public float? Ult_Qtd { get; set; }
+        public double? Ult_Qtd { get; set; }
 
         [Column(TypeName = "decimal(9,2)")]
-        public decimal Ult_Custo { get; set; }
-        public int Almoxarifado_de_Venda { get; set; }
+        public decimal? Ult_Custo { get; set; }
+
+        public bool Almoxarifado_de_Venda { get; set; }
     }
 }
