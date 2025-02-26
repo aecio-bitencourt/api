@@ -420,9 +420,6 @@ C:\Users\AECIO\Documents\api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\AECIO\Documents\api\obj\Debug\net8.0\API.csproj.Up2Date
 C:\Users\AECIO\Documents\api\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\AECIO\Documents\api\obj\Debug\net8.0\ref\API.dll
-C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\API.dll
-C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\refint\API.dll
-C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\API.pdb
 C:\Users\OTAVIO\Documents\codigos_otavio\api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\OTAVIO\Documents\codigos_otavio\api\bin\Debug\net8.0\appsettings.json
 C:\Users\OTAVIO\Documents\codigos_otavio\api\bin\Debug\net8.0\API.staticwebassets.endpoints.json
@@ -559,5 +556,8 @@ C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\staticwebassets\ms
 C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\API.csproj.Up2Date
+C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\API.dll
+C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\refint\API.dll
+C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\API.pdb
 C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\OTAVIO\Documents\codigos_otavio\api\obj\Debug\net8.0\ref\API.dll

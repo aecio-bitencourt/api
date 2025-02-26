@@ -24,11 +24,5 @@ namespace API.Repository
                 .FromSqlInterpolated($"EXEC spGetAPIOperacoes @rota = {"notas"}")
                 .ToListAsync();
         }
-        public Task<List<Centro_de_Custo>> GetCentro_de_Custo()
-        {
-            return _context.Centro_de_Custo
-                .FromSqlInterpolated($"EXEC spGetAPIOperacoes @rota = {"Centro_de_Custo"}")
-                .ToListAsync();
-        }
     }
 }

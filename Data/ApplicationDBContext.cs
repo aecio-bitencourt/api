@@ -13,6 +13,5 @@ namespace API.Data
 
         public DbSet<Notas> Notas { get; set; }
         public DbSet<Almoxarifados> Almoxarifados { get; set; }
-        public DbSet<Centro_de_Custo> Centro_de_Custo { get; set; }
     }
 }
